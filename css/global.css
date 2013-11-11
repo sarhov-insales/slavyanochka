@@ -7,6 +7,16 @@ display: table; /* 2 */
   clear: both;
 }
 
+.g-outer{
+  width: 100%;
+}
+
+.g-inner{
+  width: 100%;
+  max-width: 940px;
+  margin:0 auto;
+}
+
 
 *, *:before,*:after{
   -webkit-box-sizing: border-box;
