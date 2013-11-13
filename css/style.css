@@ -120,8 +120,6 @@ body{
 .main-nav-item_one{
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 20px;
-	margin-right: 20px;
 }
 
 .main-nav-item_one:first-child{
@@ -130,10 +128,27 @@ body{
 
 .main-nav-item_one:before{
 	content: '';
-	width: 13px;
-	height: 13px;
+	width: 10px;
+	height: 10px;
+	background: #C0D722;
 	display: inline-block;
 	vertical-align: middle;
+	margin: 0 15px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.main-nav-item-url_one{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: ;
+	font-size: 21px;
+	color: #878B84
+}
+
+.main-nav-item-url_one:hover{
+	color: #72B349;
 }
 
 .main-nav-item_one:first-child:before{
