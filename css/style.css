@@ -37,13 +37,15 @@ body{
 .search-inputs-wrap{
 	padding: 2px;
 	background: #fff;
-	height: 32px;
+	height: 31px;
 }
 
 .search-input-txt{
 	width: 158px;
 	display: inline-block;
 	vertical-align: top;
+	position: relative;
+	top: -1px;
 }
 
 .search-input-submit{
@@ -51,6 +53,68 @@ body{
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #fff;
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	-ms-transition: all 0.7s;
+	-o-transition: all 0.7s;
+	transition: all 0.7s;
+}
+
+.search-input-submit:focus{
+	background-position: 150px top;
+}
+
+.log-reg-wrap{
+	right: 90px;
+	top: 90px;
+}
+
+.login{
+	color: #878B84;
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.login:hover{
+	color: #72B349;
+}
+
+.cart-wrap{
+	right: 10px;
+	top:60px;
+	width: 70px;
+	height: 70px;
+}
+
+.cart{
+	background:transparent url('../images/cart.png ') center center no-repeat;
+	width: inherit;
+	height: inherit;
+	text-align: center;
+	display: table;
+	text-decoration: none;
+}
+
+.item-count{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 31px;
+	color: #fff;
+}
+
+.item-count:hover{
+	color: #467628;
+}
+
+/*main nav menu*/
+
+.main-nav-wrap{
+	padding: 20px 0;
+	border-style: solid;
+	border-width: 1px 0;
+	border-color: #D8D8D7;
+	margin: -15px auto 50px;
 }
 
 
