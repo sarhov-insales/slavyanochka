@@ -8,11 +8,12 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/coin-slider-styles.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="web_icons.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/coin-slider-styles.css">
+    
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
@@ -20,7 +21,20 @@
     <script src="js/libs/coin-slider.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-        $('#coin-slider').coinslider();
+        $('#coin-slider').coinslider({
+            width: 590, // width of slider panel
+            height: 385, // height of slider panel
+            spw: 7, // squares per width
+            sph: 5, // squares per height
+            delay: 3000, // delay between images in ms
+            sDelay: 30, // delay beetwen squares in ms
+            opacity: 0.7, // opacity of title and navigation
+            titleSpeed: 500, // speed of title appereance in ms
+            effect: '', // random, swirl, rain, straight
+            navigation: true, // prev next and buttons
+            links : true, // show images as links
+            hoverPause: true // pause on hover
+        });
     });
 </script>
 </head>
@@ -121,16 +135,23 @@
         <div class="slider">
             <div id='coin-slider'>
                 <a href="img01_url" target="_blank">
-                    <img src='http://lorempixel.com/620/400/' >
+                    <img src='slider3.jpg' >
                     <span>
-                        Description for img01
+                        Описание 1
+                    </span>
+                </a>
+
+                 <a href="img01_url" target="_blank">
+                    <img src='slider4.jpg' >
+                    <span>
+                        Описание 2 
                     </span>
                 </a>
     
                 <a href="imgN_url">
-                    <img src='http://lorempixel.com/620/400/' >
+                    <img src='slider1.jpg' >
                     <span>
-                        Description for imgN
+                       Описание 3
                     </span>
                 </a>
             </div>  <!-- #coin-slider -->

@@ -22,11 +22,50 @@ body{
 	z-index: 2;
 }
 
+#coin-slider {
+    height: 385px;
+    margin: 15px;
+    overflow: hidden !important;
+}
+
+#cs-navigation-coin-slider {
+    display: none !important;
+}
+
+#cs-title-coin-slider{
+	bottom: 91% !important;
+	width: 100%;
+	height: auto;
+}
+
 #cs-buttons-coin-slider{
-	background: url("../images/pigination-bg.png") repeat scroll left top rgba(0, 0, 0, 0);
+	background: rgba(255,255,255, 0.8);
+
 	border-radius: 2px;
-	bottom: 11px;
+	bottom: 38px;
 	left: 272px;
-	padding: 5px 2px 8px 6px;
+	padding: 5px 8px 5px 2px;
 	position: absolute;
+}
+
+.cs-buttons a {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #B8C4CF;
+    background: #fff;
+    float: left;
+    height: 15px;
+    margin-left: 5px;
+    text-indent: -1000px;
+    width: 15px;
+    border: none;
+}
+
+.cs-buttons a:hover {
+    background: #79CA45;
+}
+
+.cs-button-coin-slider.cs-active{
+	background: #79CA45;
 }
