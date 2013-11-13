@@ -6,8 +6,59 @@ body{
 	line-height: 17px;
 }
 
+/*header*/
+
+.head-wrap{
+	background: transparent url('../images/top-bg.gif') left top repeat-x;
+	min-height: 170px;
+}
+
+.top-nav{
+	margin-left: 30px;
+	padding: 15px 0 0 0;
+}
+
+.top-nav-item{
+	font-size: 12px;
+	color: #fff;
+	text-transform: capitalize;
+	text-decoration: none;
+	margin-left: 15px;
+}
+
+.top-nav-item:hover{
+	color: #DFFA3E;
+}
+
+.search-wrap{
+	margin: 10px 0 0 0;
+}
+
+.search-inputs-wrap{
+	padding: 2px;
+	background: #fff;
+	height: 32px;
+}
+
+.search-input-txt{
+	width: 158px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.search-input-submit{
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+}
+
 
 /*slider-banner*/
+
+.slider-wrap{
+	margin-bottom: 40px;
+}
 
 .brns-wrap{
 	width: 300px;
@@ -18,7 +69,24 @@ body{
 	height: 200px;
 	display: block;
 	margin-bottom: 15px;
+}
+
+.brns-item:last-child{
+	margin-bottom: 0;
+}
+
+/*item-lists*/
+
+.item-lists-wrap{
+	background: rgba(237, 237, 237, 0.55);
+	width: 65.95%;
 	border: 1px solid #fff;
+}
+
+.sidebar{
+	background: #fff;
+	width: 31.91%;
+	height: 400px;   /*temp*/
 }
 
 /*plugins*/
@@ -33,7 +101,6 @@ body{
 	position: relative;
 	width: 620px;
 	z-index: 2;
-	border: 1px solid #ccc;
 
 }
 
@@ -57,7 +124,7 @@ body{
 	background: rgba(255,255,255, 0.8);
 
 	border-radius: 2px;
-	bottom: 38px;
+	bottom: 36px;
 	left: 272px;
 	padding: 5px 8px 5px 2px;
 	position: absolute;
@@ -70,10 +137,10 @@ body{
     color: #B8C4CF;
     background: #fff;
     float: left;
-    height: 15px;
+    height: 13px;
     margin-left: 5px;
     text-indent: -1000px;
-    width: 15px;
+    width: 13px;
     border: none;
 }
 

@@ -41,35 +41,37 @@
 <body>
 
     <header class="g-outer head-wrap">
-        <div class="m-head g-inner">
+        <div class="m-head g-inner rel">
             <div class="s-name">
-                <h1 class="s-title">
-                    <a href="" class="s-title-url">Название сайта</a>
+                <h1 class="s-title fl">
+                    <a href="" class="s-title-url" title="Название сайта"> 
+                     <img src="images/logo.png" alt="Название сайта">
+                  </a>
                 </h1> <!-- s-title -->
             </div><!-- s-name -->
-            <nav class="top-nav" role="navigation">
+            <nav class="top-nav fl" role="navigation">
                 <a href="" class="top-nav-item nav-items">Главная</a>
                 <a href="" class="top-nav-item nav-items">Каталог</a>
                 <a href="" class="top-nav-item nav-items">Обратная связь</a>
                 <a href="" class="top-nav-item nav-items">О компании</a>
                 <a href="" class="top-nav-item nav-items">Доставка</a>
             </nav> <!-- top-nav -->
-            <div class="search-wrap">
+            <div class="search-wrap fr">
                 <div class="search-inputs-wrap">
                     <form action="">
-                        <input type="text" class="search-input-txt g-input-txt">
-                        <button class="g-input-submit search-input-submit"></button>
+                        <input type="search" class="search-input-txt g-input-txt">
+                        <button class="g-input-submit search-input-submit">Поиск</button>
                     </form>
                 </div> <!-- search-inputs-wrap -->
             </div> <!-- search-wrap -->
 
-            <div class="cart-wrap fr">
+            <div class="cart-wrap abs">
                 <div class="cart">
                     <span class="item-count">2</span>
                 </div>  <!-- cart -->
             </div>  <!-- cart-wrap -->
 
-            <div class="log-reg-wrap fr">
+            <div class="log-reg-wrap abs  ">
                 <a href="#" class="login">Войти</a>
             </div>  <!-- log-reg-wrap -->
 
@@ -159,18 +161,28 @@
         </div>  <!-- slider -->
 
         <figure class="bnrs-wrap fr">
-            <a href="" class="brns-item" style="background: #fff url('http://lorempixel.com/300/200/') center center no-repeat;">
+            <a href="" class="brns-item" style="background: transparent url('bnn1.jpg') center center no-repeat;">
                
             </a>
-                  <a href="" class="brns-item" style="background: #fff url('http://lorempixel.com/300/200/fashion/3') center center no-repeat;">
+             <a href="" class="brns-item" style="background: transparent url('bnn2.jpg') center center no-repeat;">
                
             </a>
         </figure>
-
     </section><!-- slide-wrap -->  
 
-    <section class="main-content main-page" role="main">
-        
+    <section class="main-content main-page g-inner cf">
+
+        <div class="item-lists-wrap fl">
+         <h2 class="main-title item-lists-title">
+            Популярные товары
+            </h2>
+            article.item-lists-item
+        </div> <!-- item-lists-wrap -->
+
+        <aside class="sidebar fr">
+            
+        </aside> <!-- sidebar -->
     </section> <!-- main-content -->
+
 </body>
 </html>
