@@ -12,12 +12,20 @@
     <link rel="stylesheet" href="web_icons.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/coin-slider-styles.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
     <script src="js/libs/modernizr.min.js"></script>
+    <script src="js/libs/coin-slider.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#coin-slider').coinslider();
+    });
+</script>
 </head>
 <body>
+
     <header class="g-outer head-wrap">
         <div class="m-head g-inner">
             <div class="s-name">
@@ -53,6 +61,7 @@
 
         </div> <!-- m-head -->
     </header>  <!-- head-wrap -->
+
     <section class="main-nav-wrap g-inner">
          <nav class="main-nav" role="navigation">
             
@@ -107,9 +116,27 @@
 
          </nav> <!-- main-nav -->
     </section> <!--  main-nav-wrap -->
-    <section class="slide-wrap">
-        
+
+    <section class="slider-wrap g-inner">
+        <div class="slider">
+            <div id='coin-slider'>
+                <a href="img01_url" target="_blank">
+                    <img src='http://lorempixel.com/620/400/' >
+                    <span>
+                        Description for img01
+                    </span>
+                </a>
+    
+                <a href="imgN_url">
+                    <img src='http://lorempixel.com/620/400/' >
+                    <span>
+                        Description for imgN
+                    </span>
+                </a>
+            </div>  <!-- #coin-slider -->
+        </div>  <!-- slider -->
     </section><!-- slide-wrap -->  
+
     <section class="main-content main-page" role="main">
         
     </section> <!-- main-content -->
