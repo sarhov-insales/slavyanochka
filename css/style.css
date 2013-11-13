@@ -117,6 +117,29 @@ body{
 	margin: -15px auto 50px;
 }
 
+.main-nav-item_one{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.main-nav-item_one:first-child{
+	margin-left: 0;
+}
+
+.main-nav-item_one:before{
+	content: '';
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.main-nav-item_one:first-child:before{
+	display: none;
+}
+
 
 /*slider-banner*/
 
