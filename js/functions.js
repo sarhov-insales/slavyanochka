@@ -3,7 +3,6 @@ jQuery(document).ready(function($) {
 	if (topMenuItem.length > 3 && $('.main-nav').width() > 750)
 		{
 			topMenuItem.last().addClass('lastItem');
-			alert('gogo');
 
 }
 
