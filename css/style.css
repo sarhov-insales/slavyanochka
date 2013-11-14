@@ -167,6 +167,9 @@ body{
 
 .main-nav-sub_sub{
 	top: 250%;
+	padding: 10px 0;
+	opacity: 0;
+	visibility: hidden;
 	-webkit-transition: all 0.4s;
 	-moz-transition: all 0.4s;
 	-ms-transition: all 0.4s;
@@ -177,6 +180,7 @@ body{
 .main-nav-item:hover > .main-nav-sub_sub{
 	top: 150%;
 	visibility: visible;
+	opacity: 1;
 }
 
 
@@ -192,7 +196,6 @@ body{
 }
 
 .main-nav-sub{
-	padding: 10px;
 	z-index: 20;
 	font-family: 	Arial,​Helvetica,​sans-serif;
 	text-transform: uppercase;
@@ -203,19 +206,46 @@ body{
 }
 
 .main-nav-sub_subsub{
-	left: 106%;
+	left: 206%;
 	top: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
 }
+
+.main-nav-item_two.has:hover > a:before{
+	position: relative;
+	right: -90%;
+}
+
+
+.main-nav-item_two.has:hover .main-nav-sub_subsub{
+	left:100%;
+	opacity:1;
+	visibility: visible;
+}
+
 
 .main-nav-item-url_two, .main-nav-item-url_three{
 	color: #fff;
 	display: block;
-	padding: 4px 4px 4px 10px;
+	padding: 4px 4px 4px 15px;
 }
 
 .main-nav-item-url_two:before{
 	content: '';
 	width: 0;
+	position: relative;
+	right: 0;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
 	height: 0;
 	display: inline-block;
 	border-style: solid;
