@@ -165,25 +165,63 @@ body{
 	display: none;
 }
 
+.main-nav-sub_sub{
+	top: 250%;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.main-nav-item:hover > .main-nav-sub_sub{
+	top: 150%;
+	visibility: visible;
+}
+
+
+.main-nav-sub.main-nav-sub_sub.abs:before {
+    background: none repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: -13px;
+    width: 100%;
+}
+
 .main-nav-sub{
 	padding: 10px;
 	z-index: 20;
 	font-family: 	Arial,​Helvetica,​sans-serif;
 	text-transform: uppercase;
 	font-size: 11px;
-	width: 120%;
+	width: 130%;
 	font-weight: bold;
 	background: transparent url('../images/forbg.gif') 0 0 repeat;
 }
 
 .main-nav-sub_subsub{
-	left: 100%;
+	left: 106%;
 	top: 0;
 }
 
 .main-nav-item-url_two, .main-nav-item-url_three{
 	color: #fff;
-	padding: 10px;
+	display: block;
+	padding: 4px 4px 4px 10px;
+}
+
+.main-nav-item-url_two:before{
+	content: '';
+	width: 0;
+	height: 0;
+	display: inline-block;
+	border-style: solid;
+	border-width: 6px;
+	border-color:transparent transparent transparent #fff;
+	
 }
 
 .main-nav-item-url_two:hover, .main-nav-item-url_three:hover{
