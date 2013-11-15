@@ -47,6 +47,15 @@ display: table; /* 2 */
     font-size: 18px;
 }
 
+.g-price ins{
+  text-decoration: none;
+}
+
+.g-old-price{
+  color: #C3C5C1;
+  font-size: 15px;
+}
+
 .main-title{
   font-family: 'PT Sans Narrow',sans-serif;
   font-size: 31px;

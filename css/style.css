@@ -358,7 +358,7 @@ body{
 }
 
 .item-lists-item-title{
-	min-height: 40px;
+	height: 38px;
 	overflow:hidden;
 	margin-bottom: 5px;
 }
@@ -416,7 +416,6 @@ body{
 .sidebar{
 	background: #fff;
 	width: 31.91%;
-	height: 400px;   /*temp*/
 }
 
 .sidebar-title{
@@ -430,6 +429,39 @@ body{
 
 .sidebar-title-url:hover{
 	color: #538434;
+}
+
+.sidebar-item{
+	width: 83%;
+	margin:0 auto 30px;
+}
+
+.sidebar-item-img-url{
+	width: 100px;
+	height: 80px;
+	display: block;
+	overflow: hidden;
+	margin-right: 10px;
+	border: 1px solid #fff;	
+}
+
+.sidebar-item-title{
+	height: 38px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.sidebar-item-title-url{
+	text-decoration: none;
+	color: #61983E;
+}
+
+.sidebar-item-title-url:hover{
+	color: #F6B113;
+}
+
+.sidebar-item-old-price{
+	padding-bottom: 5px;
 }
 
 
