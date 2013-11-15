@@ -37,6 +37,11 @@ display: table; /* 2 */
   background: #FCFCFC;
 }
 
+.g-buy{
+  border: none;
+  cursor: pointer;
+}
+
 .main-title{
   font-family: 'PT Sans Narrow',sans-serif;
   font-size: 31px;

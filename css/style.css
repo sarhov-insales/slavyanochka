@@ -328,7 +328,7 @@ body{
 	height: 135px;
 	display: block;
 	overflow: hidden;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 	position: relative;
 }
 
@@ -363,6 +363,26 @@ body{
 
 .item-lists-item-title-url:hover{
 	color: #F5AB02;
+}
+
+.item-lists-item-buy{
+	background: transparent url('../images/forbg.gif') 0 0  repeat;
+	display: block;
+	padding: 8px 7px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.item-lists-item-buy:after{
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 6px;
+	border-color: transparent transparent transparent #fff;
 }
 
 .sidebar{
