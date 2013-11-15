@@ -26,6 +26,12 @@ display: table; /* 2 */
    height: 28px;
 }
 
+.g-item-title-url{
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Arial,​Helvetica,​sans-serif;
+}
 
 .g-input-txt:focus{
   background: #FCFCFC;
@@ -36,7 +42,7 @@ display: table; /* 2 */
   font-size: 31px;
   font-weight: bold;
   text-transform: uppercase;
-  
+
 }
 
 input[type=text],input[type=password],input[type=email]{
