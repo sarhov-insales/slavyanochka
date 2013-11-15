@@ -23,10 +23,20 @@ display: table; /* 2 */
    font-size: 12px;
    border: none;
    padding: 7px 2px;
+   height: 28px;
 }
+
 
 .g-input-txt:focus{
   background: #FCFCFC;
+}
+
+.main-title{
+  font-family: 'PT Sans Narrow',sans-serif;
+  font-size: 31px;
+  font-weight: bold;
+  text-transform: uppercase;
+  
 }
 
 input[type=text],input[type=password],input[type=email]{
@@ -188,6 +198,12 @@ input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
 
+input, textarea {
+  -webkit-appearance: none;
+    border-radius: 0;
+}
+
+textarea, input { outline: none; }
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {

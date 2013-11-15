@@ -312,11 +312,27 @@ body{
 	border: 1px solid #fff;
 }
 
+.item-lists-title{
+	padding:30px 30px 20px 30px;
+}
+
+.item-lists-item{
+	width: 166px;
+	height: 240px;
+	background: #000;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
 .sidebar{
 	background: #fff;
 	width: 31.91%;
 	height: 400px;   /*temp*/
 }
+
+
+
+
 
 /*plugins*/
 
