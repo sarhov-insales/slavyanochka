@@ -212,6 +212,13 @@
                         Покрывало "Карамельная фантазия"
                     </a>
                 </h1>
+                <form action="{{cart.url}}" method="post">
+                  <input type="hidden" name="variant_id" value="{{ product.variants.first.id }}" />
+                  <div class="g-price item-lsist-item-price fl">1400руб.</div>
+                  <button class="g-buy item-lists-item-buy buy-button fr">
+                    Купить
+                  </button>
+                </form>
             </article> <!-- item-lists-item -->
            
 
