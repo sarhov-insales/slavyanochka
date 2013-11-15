@@ -42,6 +42,11 @@ display: table; /* 2 */
   cursor: pointer;
 }
 
+.g-price{
+    color: #F5AB02;
+    font-size: 18px;
+}
+
 .main-title{
   font-family: 'PT Sans Narrow',sans-serif;
   font-size: 31px;
