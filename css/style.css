@@ -304,6 +304,12 @@ body{
 	margin-bottom: 0;
 }
 
+/*main-content*/
+
+.main-content{
+	margin-bottom: 40px;
+}
+
 /*item-lists*/
 
 .item-lists-wrap{
@@ -405,11 +411,28 @@ body{
 	left: 4px;
 }
 
+/*sidebar*/
+
 .sidebar{
 	background: #fff;
 	width: 31.91%;
 	height: 400px;   /*temp*/
 }
+
+.sidebar-title{
+	padding: 30px;
+}
+
+.sidebar-title-url{
+	color: #74B24D;
+	text-decoration: none;
+}
+
+.sidebar-title-url:hover{
+	color: #538434;
+}
+
+
 
 
 
