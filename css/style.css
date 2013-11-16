@@ -515,12 +515,18 @@ body{
 /*sidebar*/
 
 .sidebar{
-	background: #fff;
 	width: 31.91%;
+}
+
+.sidebar-box{
+	background: #fff;
+	margin-bottom: 20px;
+	clear: both;
 }
 
 .sidebar-title{
 	padding: 30px;
+	color: #74B24D;
 }
 
 .sidebar-title-url{
@@ -564,6 +570,24 @@ body{
 .sidebar-item-old-price{
 	padding-bottom: 5px;
 }
+
+.sidebar-nav{
+	padding: 0 30px 10px; 
+}
+
+.sidebar-nav-item{
+	color: #61983E;
+	display: block;
+	text-decoration: none;
+	margin-bottom:10px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.sidebar-nav-item:hover{
+	color: #F5AB02;
+}
+
 
 /*main-foot*/
 
