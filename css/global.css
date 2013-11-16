@@ -141,6 +141,10 @@ html {
     -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+img {border : 0;max-width: 100%;}
+
+a img {outline : none;}
+
 html, body {
     margin: 0;
     padding:0;

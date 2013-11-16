@@ -159,49 +159,161 @@
          </nav> <!-- main-nav -->
     </section> <!--  main-nav-wrap -->
 
-    <section class="slider-wrap g-inner cf">
 
-        <div class="slider fl">
-            <div id='coin-slider'>
-                <a href="img01_url" target="_blank">
-                    <img src='slider3.jpg' >
-                    <span>
-                        Описание 1
-                    </span>
-                </a>
-
-                 <a href="img01_url" target="_blank">
-                    <img src='slider4.jpg' >
-                    <span>
-                        Описание 2 
-                    </span>
-                </a>
-    
-                <a href="imgN_url">
-                    <img src='slider1.jpg' >
-                    <span>
-                       Описание 3
-                    </span>
-                </a>
-            </div>  <!-- #coin-slider -->
-        </div>  <!-- slider -->
-
-        <figure class="bnrs-wrap fr">
-            <a href="" class="brns-item" style="background: transparent url('bnn1.jpg') center center no-repeat;">
-               
-            </a>
-             <a href="" class="brns-item" style="background: transparent url('bnn2.jpg') center center no-repeat;">
-               
-            </a>
-        </figure>
-    </section><!-- slide-wrap -->  
 
     <section class="main-content main-page g-inner cf">
 
         <div class="item-lists-wrap fl">
           <h2 class="main-title item-lists-title">
-            Популярные товары
+           Постельное белье
           </h2>
+          <section class="cat-description">
+            Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Вскоре щеке лучше несколько. Последний, маленькая, букв, толку единственное то предупреждал первую подпоясал вопрос которой рукописи lorem даже над ручеек!
+          </section> <!-- cat-description -->
+
+          <section class="sub-cat-wrap cf">
+
+            <div class="sub-cat-item fl">
+              <a href="{{collection.url}}" class="sub-cat-url g-item-title-url">
+               <figure class="sub-cat-img">
+                 <img src="sub1.jpg" alt="Махровые изделия" class="sub-cat-image">
+               </figure>
+                <span class="sub-cat-title">Махровые изделия</span>
+              </a>
+            </div>
+            
+            <div class="sub-cat-item fl">
+              <a href="{{collection.url}}" class="sub-cat-url g-item-title-url">
+               <figure class="sub-cat-img">
+                 <img src="sub1.jpg" alt="Махровые изделия" class="sub-cat-image">
+               </figure>
+                <span class="sub-cat-title">Махровые изделия</span>
+              </a>
+            </div>
+            
+            <div class="sub-cat-item fl">
+              <a href="{{collection.url}}" class="sub-cat-url g-item-title-url">
+               <figure class="sub-cat-img">
+                 <img src="sub1.jpg" alt="Махровые изделия" class="sub-cat-image">
+               </figure>
+                <span class="sub-cat-title">Махровые изделия</span>
+              </a>
+            </div>
+            
+            <div class="sub-cat-item fl">
+              <a href="{{collection.url}}" class="sub-cat-url g-item-title-url">
+               <figure class="sub-cat-img">
+                 <img src="sub1.jpg" alt="Махровые изделия" class="sub-cat-image">
+               </figure>
+                <span class="sub-cat-title">Махровые изделия</span>
+              </a>
+            </div>
+            
+            <div class="sub-cat-item fl">
+              <a href="{{collection.url}}" class="sub-cat-url g-item-title-url">
+               <figure class="sub-cat-img">
+                 <img src="sub1.jpg" alt="Махровые изделия" class="sub-cat-image">
+               </figure>
+                <span class="sub-cat-title">Махровые изделия</span>
+              </a>
+            </div>
+            
+            <div class="sub-cat-item fl">
+              <a href="{{collection.url}}" class="sub-cat-url g-item-title-url">
+               <figure class="sub-cat-img">
+                 <img src="sub1.jpg" alt="Махровые изделия" class="sub-cat-image">
+               </figure>
+                <span class="sub-cat-title">Махровые изделия</span>
+              </a>
+            </div>
+          </section>
+
+          <div class="item-count-per-page cf cb">
+            <span class="per-page-text fl">Показано 1-9 из 14 продуктов</span>
+            <nav class="pagination fr">
+             
+              <a href="" class="pagination-item pagination-item_number active">1</a>
+              <a href="" class="pagination-item pagination-item_number">2</a>
+              <a href="" class="pagination-item pagination-item_text">следующая</a>
+            </nav>
+          </div>
+
+          <div class="filter-sorting-wrap">
+            
+          </div> <!-- filter-sorting-wrap -->
+
+                     
+          <article class="item-lists-item fl">
+            <a href="{{product.url}}" class="item-lists-item-url">
+                <img src="item-list.jpg" alt="" class="item-lists-item-img">
+            </a>
+            <h1 class="item-lists-item-title g-item-title">
+              <a href="{{product.url}}" class="item-lists-item-title-url g-item-title-url">
+                  Покрывало "Карамельная фантазия"
+              </a>
+            </h1>
+            <form action="{{cart.url}}" method="post">
+              <input type="hidden" name="variant_id" value="{{ product.variants.first.id }}" />
+              <div class="g-price item-lists-item-price fl">1400руб.</div>
+              <button class="g-buy item-lists-item-buy buy-button fr">
+                Купить
+              </button>
+            </form>
+          </article> <!-- item-lists-item -->
+     
+          <article class="item-lists-item fl">
+            <a href="{{product.url}}" class="item-lists-item-url">
+                <img src="item-list.jpg" alt="" class="item-lists-item-img">
+            </a>
+            <h1 class="item-lists-item-title g-item-title">
+              <a href="{{product.url}}" class="item-lists-item-title-url g-item-title-url">
+                  Покрывало "Карамельная фантазия"
+              </a>
+            </h1>
+            <form action="{{cart.url}}" method="post">
+              <input type="hidden" name="variant_id" value="{{ product.variants.first.id }}" />
+              <div class="g-price item-lists-item-price fl">1400руб.</div>
+              <button class="g-buy item-lists-item-buy buy-button fr">
+                Купить
+              </button>
+            </form>
+          </article> <!-- item-lists-item -->
+         
+          <article class="item-lists-item fl">
+            <a href="{{product.url}}" class="item-lists-item-url">
+                <img src="item-list.jpg" alt="" class="item-lists-item-img">
+            </a>
+            <h1 class="item-lists-item-title g-item-title">
+              <a href="{{product.url}}" class="item-lists-item-title-url g-item-title-url">
+                  Покрывало "Карамельная фантазия"
+              </a>
+            </h1>
+            <form action="{{cart.url}}" method="post">
+              <input type="hidden" name="variant_id" value="{{ product.variants.first.id }}" />
+              <div class="g-price item-lists-item-price fl">1400руб.</div>
+              <button class="g-buy item-lists-item-buy buy-button fr">
+                Купить
+              </button>
+            </form>
+          </article> <!-- item-lists-item -->
+          
+          <article class="item-lists-item fl">
+            <a href="{{product.url}}" class="item-lists-item-url">
+                <img src="item-list.jpg" alt="" class="item-lists-item-img">
+            </a>
+            <h1 class="item-lists-item-title g-item-title">
+              <a href="{{product.url}}" class="item-lists-item-title-url g-item-title-url">
+                  Покрывало "Карамельная фантазия"
+              </a>
+            </h1>
+            <form action="{{cart.url}}" method="post">
+              <input type="hidden" name="variant_id" value="{{ product.variants.first.id }}" />
+              <div class="g-price item-lists-item-price fl">1400руб.</div>
+              <button class="g-buy item-lists-item-buy buy-button fr">
+                Купить
+              </button>
+            </form>
+          </article> <!-- item-lists-item -->
 
           <article class="item-lists-item fl">
             <a href="{{product.url}}" class="item-lists-item-url">
@@ -220,7 +332,7 @@
               </button>
             </form>
           </article> <!-- item-lists-item -->
-           
+
           <article class="item-lists-item fl">
             <a href="{{product.url}}" class="item-lists-item-url">
                 <img src="item-list.jpg" alt="" class="item-lists-item-img">
@@ -238,132 +350,17 @@
               </button>
             </form>
           </article> <!-- item-lists-item -->
-           
-          <article class="item-lists-item fl">
-            <a href="{{product.url}}" class="item-lists-item-url">
-                <img src="item-list.jpg" alt="" class="item-lists-item-img">
-            </a>
-            <h1 class="item-lists-item-title g-item-title">
-              <a href="{{product.url}}" class="item-lists-item-title-url g-item-title-url">
-                  Покрывало "Карамельная фантазия"
-              </a>
-            </h1>
-            <form action="{{cart.url}}" method="post">
-              <input type="hidden" name="variant_id" value="{{ product.variants.first.id }}" />
-              <div class="g-price item-lists-item-price fl">1400руб.</div>
-              <button class="g-buy item-lists-item-buy buy-button fr">
-                Купить
-              </button>
-            </form>
-          </article> <!-- item-lists-item -->
-           
-          <article class="item-lists-item fl">
-            <a href="{{product.url}}" class="item-lists-item-url">
-                <img src="item-list.jpg" alt="" class="item-lists-item-img">
-            </a>
-            <h1 class="item-lists-item-title g-item-title">
-              <a href="{{product.url}}" class="item-lists-item-title-url g-item-title-url">
-                  Покрывало "Карамельная фантазия"
-              </a>
-            </h1>
-            <form action="{{cart.url}}" method="post">
-              <input type="hidden" name="variant_id" value="{{ product.variants.first.id }}" />
-              <div class="g-price item-lists-item-price fl">1400руб.</div>
-              <button class="g-buy item-lists-item-buy buy-button fr">
-                Купить
-              </button>
-            </form>
-          </article> <!-- item-lists-item -->
-           
-          <article class="item-lists-item fl">
-            <a href="{{product.url}}" class="item-lists-item-url">
-                <img src="item-list.jpg" alt="" class="item-lists-item-img">
-            </a>
-            <h1 class="item-lists-item-title g-item-title">
-              <a href="{{product.url}}" class="item-lists-item-title-url g-item-title-url">
-                  Покрывало "Карамельная фантазия"
-              </a>
-            </h1>
-            <form action="{{cart.url}}" method="post">
-              <input type="hidden" name="variant_id" value="{{ product.variants.first.id }}" />
-              <div class="g-price item-lists-item-price fl">1400руб.</div>
-              <button class="g-buy item-lists-item-buy buy-button fr">
-                Купить
-              </button>
-            </form>
-          </article> <!-- item-lists-item -->
-           
-          <article class="item-lists-item fl">
-            <a href="{{product.url}}" class="item-lists-item-url">
-                <img src="item-list.jpg" alt="" class="item-lists-item-img">
-            </a>
-            <h1 class="item-lists-item-title g-item-title">
-              <a href="{{product.url}}" class="item-lists-item-title-url g-item-title-url">
-                  Покрывало "Карамельная фантазия"
-              </a>
-            </h1>
-            <form action="{{cart.url}}" method="post">
-              <input type="hidden" name="variant_id" value="{{ product.variants.first.id }}" />
-              <div class="g-price item-lists-item-price fl">1400руб.</div>
-              <button class="g-buy item-lists-item-buy buy-button fr">
-                Купить
-              </button>
-            </form>
-          </article> <!-- item-lists-item -->
-           
-          <article class="item-lists-item fl">
-            <a href="{{product.url}}" class="item-lists-item-url">
-                <img src="item-list.jpg" alt="" class="item-lists-item-img">
-            </a>
-            <h1 class="item-lists-item-title g-item-title">
-              <a href="{{product.url}}" class="item-lists-item-title-url g-item-title-url">
-                  Покрывало "Карамельная фантазия"
-              </a>
-            </h1>
-            <form action="{{cart.url}}" method="post">
-              <input type="hidden" name="variant_id" value="{{ product.variants.first.id }}" />
-              <div class="g-price item-lists-item-price fl">1400руб.</div>
-              <button class="g-buy item-lists-item-buy buy-button fr">
-                Купить
-              </button>
-            </form>
-          </article> <!-- item-lists-item -->
-           
-          <article class="item-lists-item fl">
-            <a href="{{product.url}}" class="item-lists-item-url">
-                <img src="item-list.jpg" alt="" class="item-lists-item-img">
-            </a>
-            <h1 class="item-lists-item-title g-item-title">
-              <a href="{{product.url}}" class="item-lists-item-title-url g-item-title-url">
-                  Покрывало "Карамельная фантазия"
-              </a>
-            </h1>
-            <form action="{{cart.url}}" method="post">
-              <input type="hidden" name="variant_id" value="{{ product.variants.first.id }}" />
-              <div class="g-price item-lists-item-price fl">1400руб.</div>
-              <button class="g-buy item-lists-item-buy buy-button fr">
-                Купить
-              </button>
-            </form>
-          </article> <!-- item-lists-item -->
-           
-          <article class="item-lists-item fl">
-            <a href="{{product.url}}" class="item-lists-item-url">
-                <img src="item-list.jpg" alt="" class="item-lists-item-img">
-            </a>
-            <h1 class="item-lists-item-title g-item-title">
-              <a href="{{product.url}}" class="item-lists-item-title-url g-item-title-url">
-                  Покрывало "Карамельная фантазия"
-              </a>
-            </h1>
-            <form action="{{cart.url}}" method="post">
-              <input type="hidden" name="variant_id" value="{{ product.variants.first.id }}" />
-              <div class="g-price item-lists-item-price fl">1400руб.</div>
-              <button class="g-buy item-lists-item-buy buy-button fr">
-                Купить
-              </button>
-            </form>
-          </article> <!-- item-lists-item -->
+
+          <div class="item-count-per-page cf cb">
+            <span class="per-page-text fl">Показано 1-9 из 14 продуктов</span>
+            <nav class="pagination fr">
+             
+              <a href="" class="pagination-item pagination-item_number active">1</a>
+              <a href="" class="pagination-item pagination-item_number">2</a>
+              <a href="" class="pagination-item pagination-item_text">следующая</a>
+            </nav>
+          </div>
+
         </div> <!-- item-lists-wrap -->
 
         <aside class="sidebar fr">
