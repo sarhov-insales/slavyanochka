@@ -512,6 +512,34 @@ body{
 	left: 4px;
 }
 
+/*filters*/
+
+.filtering{
+	width: 55%;
+	color: #fff;
+}
+
+.filter-title{
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.filter-item{
+	margin-bottom: 7px;
+}
+
+.filter-select{
+	width: 170px;
+}
+
+.low-price, .hight-price{
+	width: 50px;
+	height: 20px;
+	padding: 0 !important;
+}
+
 /*sidebar*/
 
 .sidebar{
