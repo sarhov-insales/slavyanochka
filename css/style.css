@@ -574,20 +574,68 @@ body{
 
 .item-image-part{
 	width: 45%;
-	height: 250px;
 	padding-left: 10px;
+	margin-bottom: 20px;
 }
 
+
+
 .item-image-url{
-	padding: 4px;
 	display: block;
 	width: 100%;
 	margin:0 auto;
 	border:1px solid #ECEAEA;
+	margin-bottom: 10px;
+	height: 100%;
+}
+
+.other-images-image{
+	display: block;
 }
 
 .item-main-image{
 	display: block;
+}
+
+.other-images{
+	width: 100%;
+	padding: 0 14px;
+}
+
+.other-images-item{
+	width: 66px;
+	float: left;
+	display: block;
+	margin: 0 2px;
+}
+
+.next-prev-button{
+	height: 100%;
+	width: 13px;
+	background: #F6B702;
+	top:0;
+	text-align: center;
+}
+
+.next-prev-button.prev{
+	left: 0;
+}
+
+.next-prev-button.prev:before{
+	content: '';
+	display: block;
+	margin-top: 18px;
+	width: 0;
+	position: relative;
+	left: -4px;
+	height: 0;
+	border-style: solid;
+	border-width: 7px;
+	border-color: transparent #fff transparent transparent;
+}
+
+.next-prev-button.next{
+	right: 0;
 }
 
 .item-info-part{

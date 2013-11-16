@@ -19,6 +19,8 @@
     <script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
     <script src="js/libs/modernizr.min.js"></script>
     <script src="js/functions.js"></script>
+    <script src="js/libs/plugins.js"></script>
+    <script src="js/libs/carousel.js"></script>
     <script src="js/libs/coin-slider.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
@@ -163,40 +165,78 @@
 
     <section class="main-content main-page g-inner cf">
 
-        <div class="item-lists-wrap fl">
+        <div class="item-lists-wrap fl cf">
           <h2 class="main-title item-lists-title">
            Постельное белье
           </h2>
           <section class="sub-cat-wrap cf">
-            <div class="item-image-part fl">
-              <figure class="item-images">
-                <a href="" class="item-image-url">
+            <div class="item-image-part fl cf">
+              <figure class="item-images cf">
+                <a id='zoom1' href="item1.jpg" class="item-image-url cloud-zoom"  rel="
+                  position:'zoomer', 
+                  smoothMove:'3', 
+
+                  zoomWidth:380,
+                  tint: '#eeeeee',
+                  tintOpacity:0.5
+                  ">
                   <img src="item1.jpg" alt="" class="item-main-image">
                 </a>
-                <div class="other-images" id="other-images-carousel">
-                  <a href="" class="other-images-item">
-                    <img src="" alt="" class="other-images-image">
+                <section class="other-images rel">
+                  <div  id="other-images-carousel">
+                  <a href="item1.jpg" class="other-images-item cloud-zoom-gallery" rel="useZoom:'zoom1',smallImage: 'item1.jpg'">
+                    <img src="item1-thumb.jpg" alt="" class="other-images-image">
                   </a>
-                  <a href="" class="other-images-item">
-                    <img src="" alt="" class="other-images-image">
+                  <a href="item2.jpg" class="other-images-item cloud-zoom-gallery" rel="useZoom:'zoom1',smallImage: 'item2.jpg'">
+                    <img src="item2-thumb.jpg" alt="" class="other-images-image">
                   </a>
-                  <a href="" class="other-images-item">
-                    <img src="" alt="" class="other-images-image">
+                  <a href="item3.jpg" class="other-images-item cloud-zoom-gallery" rel="useZoom:'zoom1',smallImage: 'item3.jpg'">
+                    <img src="item3-thumb.jpg" alt="" class="other-images-image">
                   </a>
-                  <a href="" class="other-images-item">
-                    <img src="" alt="" class="other-images-image">
+                  <a href="item5.jpg" class="other-images-item cloud-zoom-gallery" rel="useZoom:'zoom1',smallImage: 'item5.jpg'">
+                    <img src="item5-thumb.jpg" alt="" class="other-images-image">
                   </a>
-                  <a href="" class="other-images-item">
-                    <img src="" alt="" class="other-images-image">
+                  <a href="item6.jpg" class="other-images-item cloud-zoom-gallery" rel="useZoom:'zoom1',smallImage: 'item6.jpg'">
+                    <img src="item6-thumb.jpg" alt="" class="other-images-image">
                   </a>
-                  <a href="" class="other-images-item">
-                    <img src="" alt="" class="other-images-image">
+                  <a href="item7.jpg" class="other-images-item cloud-zoom-gallery" rel="useZoom:'zoom1',smallImage: 'item7.jpg'">
+                    <img src="item7-thumb.jpg" alt="" class="other-images-image">
                   </a>
-                </div> <!-- other-images -->
+                </div>  <!-- #other-images-carousel -->
+                <a href="#" class="next-prev-button prev abs" id="other-prev"></a>
+                <a href="#" class="next-prev-button  next abs" id="other-next"></a>
+                </section> <!-- other-images -->
               </figure>  <!-- item-images -->
             </div> <!-- image-part -->
+<script>
+              //fancybox
+  
+  $(".fancybox-thumb").fancybox({
+    prevEffect  : 'elastic',
+    nextEffect  : 'fade',
+    openEffect:'elastic',
+    closeEffect:'elastic',
+    helpers : {
+      title : {
+        type: 'inside'
+      },
+      thumbs  : {
+        width : 50,
+        height  : 50
+      }
+    }
+  });
 
-            <div class="item-info-part fr">
+ $("#other-images-carousel").carouFredSel({
+width: "100%",
+auto: false,
+prev: "#other-prev",
+next: "#other-next"
+}); 
+
+</script>
+
+            <div class="item-info-part fr rel" id="zoomer">
               <h2 class="item-short-description g-second-title">
                 Далеко-далеко за словесными горами в стране.
               </h2> <!-- item-showrt-description -->
