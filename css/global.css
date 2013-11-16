@@ -51,6 +51,12 @@ display: table; /* 2 */
   text-decoration: none;
 }
 
+.g-second-title{
+  font: 17px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
 .g-old-price{
   color: #C3C5C1;
   font-size: 15px;
@@ -130,6 +136,10 @@ nav,
 section,
 summary {
     display: block;
+}
+
+button{
+  margin: 0;
 }
 
 [hidden] {
