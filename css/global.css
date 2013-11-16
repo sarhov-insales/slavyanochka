@@ -52,7 +52,8 @@ display: table; /* 2 */
 }
 
 .g-second-title{
-  font: 17px;
+  font-size: 17px;
+  line-height: 1.1;
   font-weight: bold;
   text-transform: capitalize;
 }

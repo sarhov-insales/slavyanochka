@@ -573,13 +573,26 @@ body{
 /*item*/
 
 .item-image-part{
-	width: 40%;
+	width: 45%;
 	height: 250px;
+	padding-left: 10px;
+}
+
+.item-image-url{
+	padding: 4px;
+	display: block;
+	width: 100%;
+	margin:0 auto;
+	border:1px solid #ECEAEA;
+}
+
+.item-main-image{
+	display: block;
 }
 
 .item-info-part{
 	width: 54%;
-	padding: 7px;
+	padding: 0 10px 10px 10px;
 }
 
 .item-short-description{
