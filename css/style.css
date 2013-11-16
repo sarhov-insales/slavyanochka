@@ -634,6 +634,19 @@ body{
 	border-color: transparent #fff transparent transparent;
 }
 
+.next-prev-button.next:before{
+	content: '';
+	display: block;
+	margin-top: 18px;
+	width: 0;
+	position: relative;
+	right: -4px;
+	height: 0;
+	border-style: solid;
+	border-width: 7px;
+	border-color: transparent transparent transparent #fff;
+}
+
 .next-prev-button.next{
 	right: 0;
 }
@@ -733,6 +746,10 @@ body{
 
 .item-buy{
 	background: #F6B702;
+}
+
+.full-description-wrap{
+	padding: 10px;
 }
 
 
